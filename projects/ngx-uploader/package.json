@@ -1,20 +1,21 @@
 {
-  "name": "ngx-uploader",
-  "version": "8.0.0",
+  "name": "@nelsontk/ngx-uploader",
+  "version": "9.0.0",
   "homepage": "https://ngx-uploader.com",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/bleenco/ngx-uploader.git"
+    "url": "git+https://github.com/nelsontk/ngx-uploader.git"
   },
   "authors": [
-    "Jan Kuri <jkuri88@gmail.com>"
+    "Jan Kuri <jkuri88@gmail.com>",
+    "Nelson Truran <nelson@truran.dev>"
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/bleenco/ngx-uploader/issues"
+    "url": "https://github.com/nelsntkq/ngx-uploader/issues"
   },
   "peerDependencies": {
-    "@angular/common": "^8.2.14",
-    "@angular/core": "^8.2.14"
+    "@angular/common": "^9.1.9",
+    "@angular/core": "^9.1.9"
   }
 }

@@ -220,7 +220,7 @@ export class NgUploaderService {
             file.response = xhr.response;
           }
 
-          file.responseHeaders = this.parseResponseHeaders(xhr.getAllResponseHeaders());
+          file.responseHeaders = (<any>this.parseResponseHeaders(xhr.getAllResponseHeaders()));
 
           observer.next({ type: 'done', file: file });
 

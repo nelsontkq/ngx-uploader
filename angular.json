@@ -143,9 +143,9 @@
           },
           "configurations": {
             "production": {
-              "project": "projects/ngx-uploader/ng-package.prod.json"
-            ,              "tsConfig": "projects/ngx-uploader/tsconfig.lib.prod.json"
-}
+              "project": "projects/ngx-uploader/ng-package.prod.json",
+              "tsConfig": "projects/ngx-uploader/tsconfig.lib.prod.json"
+            }
           }
         },
         "test": {
@@ -171,5 +171,8 @@
       }
     }
   },
-  "defaultProject": "uploader"
+  "defaultProject": "uploader",
+  "cli": {
+    "analytics": "1a8d9704-914a-4bd7-8425-591c19bffbd0"
+  }
 }
